@@ -5,12 +5,12 @@
 #define INSERTSTUDENTINFORMATION_LOGUPDAO_H
 
 #include <iostream>
+#include <string>
+#include <vector>
 #include <winsock.h>
 #include <mysql.h>
-#include <string>
 #pragma comment(lib, "libmysql.lib")
 
-#include "MD5.h"    //md5密码加密
 #include "FileIO.h" //读取比赛信息文件
 #include "Student.h"//学生信息模板
 
@@ -24,8 +24,9 @@ private:
 
 public:
     //数据库初始化
-    LogUpDao();
-
+    LogUpDao(string sqlhost, string sqlUser, string password);
+    //插入数据
+    bool insertInformation(vector<Student> students);
 
     //数据库结束
     ~LogUpDao();

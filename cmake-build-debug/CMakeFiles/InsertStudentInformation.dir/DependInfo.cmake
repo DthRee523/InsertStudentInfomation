@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.cpp" "D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj"
-  "D:/Code/CoC++/LingXi/InsertStudentInformation/LogUpDao.cpp" "D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj"
-  "D:/Code/CoC++/LingXi/InsertStudentInformation/main.cpp" "D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/main.cpp.obj"
+  "D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.cpp" "D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj"
+  "D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.cpp" "D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj"
+  "D:/Code/CoC++/LingXi/insert-student-infomation/main.cpp" "D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/CMakeFiles/InsertStudentInformation.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

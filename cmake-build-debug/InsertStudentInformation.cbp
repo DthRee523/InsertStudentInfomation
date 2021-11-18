@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug"/>
+				<Option working_dir="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InsertStudentInformation">
-				<Option output="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/InsertStudentInformation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug"/>
+				<Option output="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/InsertStudentInformation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Code/CoC++/LingXi/InsertStudentInformation/include"/>
+					<Add directory="D:/Code/CoC++/LingXi/insert-student-infomation/include"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -33,20 +33,20 @@
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertStudentInformation"/>
-					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertStudentInformation"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InsertStudentInformation/fast">
-				<Option output="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/InsertStudentInformation.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug"/>
+				<Option output="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/InsertStudentInformation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Code/CoC++/LingXi/InsertStudentInformation/include"/>
+					<Add directory="D:/Code/CoC++/LingXi/insert-student-infomation/include"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -55,52 +55,52 @@
 					<Add directory="D:/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertStudentInformation/fast"/>
-					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 InsertStudentInformation/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug"/>
+				<Option working_dir="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug"/>
+				<Option working_dir="D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/InsertStudentInformation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/Code/CoC++/LingXi/insert-student-infomation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.cpp">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.cpp">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.h">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/LogUpDao.cpp">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.cpp">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/LogUpDao.h">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/Student.h">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/Student.h">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/main.cpp">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/main.cpp">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
-		<Unit filename="D:/Code/CoC++/LingXi/InsertStudentInformation/CMakeLists.txt">
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -13,9 +13,9 @@ CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj
  ../include/enum.h
  ../include/libxl.h
  ../include/setup.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.cpp
- D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/Student.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.cpp
+ D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj
  ../include/IAutoFilterT.h
  ../include/IBookT.h
@@ -41,10 +41,10 @@ CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj
  ../include/mysql_version.h
  ../include/setup.h
  ../include/typelib.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/FileIO.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/LogUpDao.cpp
- D:/Code/CoC++/LingXi/InsertStudentInformation/LogUpDao.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/MD5.h
- D:/Code/CoC++/LingXi/InsertStudentInformation/Student.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.cpp
+ D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
+ D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 CMakeFiles/InsertStudentInformation.dir/main.cpp.obj
- D:/Code/CoC++/LingXi/InsertStudentInformation/main.cpp
+ D:/Code/CoC++/LingXi/insert-student-infomation/main.cpp

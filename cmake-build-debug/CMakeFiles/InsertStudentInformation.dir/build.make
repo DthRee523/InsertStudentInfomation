@@ -52,10 +52,10 @@ RM = E:\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Code\CoC++\LingXi\InsertStudentInformation
+CMAKE_SOURCE_DIR = D:\Code\CoC++\LingXi\insert-student-infomation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/InsertStudentInformation.dir/depend.make
@@ -68,44 +68,44 @@ include CMakeFiles/InsertStudentInformation.dir/flags.make
 CMakeFiles/InsertStudentInformation.dir/main.cpp.obj: CMakeFiles/InsertStudentInformation.dir/flags.make
 CMakeFiles/InsertStudentInformation.dir/main.cpp.obj: CMakeFiles/InsertStudentInformation.dir/includes_CXX.rsp
 CMakeFiles/InsertStudentInformation.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InsertStudentInformation.dir/main.cpp.obj"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\main.cpp.obj -c D:\Code\CoC++\LingXi\InsertStudentInformation\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InsertStudentInformation.dir/main.cpp.obj"
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\main.cpp.obj -c D:\Code\CoC++\LingXi\insert-student-infomation\main.cpp
 
 CMakeFiles/InsertStudentInformation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InsertStudentInformation.dir/main.cpp.i"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\InsertStudentInformation\main.cpp > CMakeFiles\InsertStudentInformation.dir\main.cpp.i
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\insert-student-infomation\main.cpp > CMakeFiles\InsertStudentInformation.dir\main.cpp.i
 
 CMakeFiles/InsertStudentInformation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InsertStudentInformation.dir/main.cpp.s"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\InsertStudentInformation\main.cpp -o CMakeFiles\InsertStudentInformation.dir\main.cpp.s
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\insert-student-infomation\main.cpp -o CMakeFiles\InsertStudentInformation.dir\main.cpp.s
 
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj: CMakeFiles/InsertStudentInformation.dir/flags.make
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj: CMakeFiles/InsertStudentInformation.dir/includes_CXX.rsp
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj: ../LogUpDao.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.obj -c D:\Code\CoC++\LingXi\InsertStudentInformation\LogUpDao.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj"
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.obj -c D:\Code\CoC++\LingXi\insert-student-infomation\LogUpDao.cpp
 
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.i"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\InsertStudentInformation\LogUpDao.cpp > CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.i
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\insert-student-infomation\LogUpDao.cpp > CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.i
 
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.s"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\InsertStudentInformation\LogUpDao.cpp -o CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.s
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\insert-student-infomation\LogUpDao.cpp -o CMakeFiles\InsertStudentInformation.dir\LogUpDao.cpp.s
 
 CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj: CMakeFiles/InsertStudentInformation.dir/flags.make
 CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj: CMakeFiles/InsertStudentInformation.dir/includes_CXX.rsp
 CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj: ../FileIO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.obj -c D:\Code\CoC++\LingXi\InsertStudentInformation\FileIO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj"
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.obj -c D:\Code\CoC++\LingXi\insert-student-infomation\FileIO.cpp
 
 CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.i"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\InsertStudentInformation\FileIO.cpp > CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.i
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\CoC++\LingXi\insert-student-infomation\FileIO.cpp > CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.i
 
 CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.s"
-	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\InsertStudentInformation\FileIO.cpp -o CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.s
+	D:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\CoC++\LingXi\insert-student-infomation\FileIO.cpp -o CMakeFiles\InsertStudentInformation.dir\FileIO.cpp.s
 
 # Object files for target InsertStudentInformation
 InsertStudentInformation_OBJECTS = \
@@ -123,7 +123,7 @@ InsertStudentInformation.exe: CMakeFiles/InsertStudentInformation.dir/build.make
 InsertStudentInformation.exe: CMakeFiles/InsertStudentInformation.dir/linklibs.rsp
 InsertStudentInformation.exe: CMakeFiles/InsertStudentInformation.dir/objects1.rsp
 InsertStudentInformation.exe: CMakeFiles/InsertStudentInformation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable InsertStudentInformation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable InsertStudentInformation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\InsertStudentInformation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/InsertStudentInformation.dir/clean:
 .PHONY : CMakeFiles/InsertStudentInformation.dir/clean
 
 CMakeFiles/InsertStudentInformation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\CoC++\LingXi\InsertStudentInformation D:\Code\CoC++\LingXi\InsertStudentInformation D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug D:\Code\CoC++\LingXi\InsertStudentInformation\cmake-build-debug\CMakeFiles\InsertStudentInformation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Code\CoC++\LingXi\insert-student-infomation D:\Code\CoC++\LingXi\insert-student-infomation D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles\InsertStudentInformation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/InsertStudentInformation.dir/depend
 
