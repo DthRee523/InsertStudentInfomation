@@ -1,5 +1,7 @@
 #include "LogUpDao.h"
 
+//function LogUpDao
+// @pragma
 LogUpDao::LogUpDao(string sqlhost, string sqlUser, string password)
 {
     //数据库初始化
@@ -15,6 +17,7 @@ LogUpDao::LogUpDao(string sqlhost, string sqlUser, string password)
     {
         //windows下用的编码格式为GB2312 Linux下删除此代码 UTF-8
         mysql_query(&mysql, "set names gb2312");
+        cout << "数据库链接成功！" << endl;
     }
     else
     {
@@ -29,7 +32,7 @@ void LogUpDao::insertInformation(vector<Student> students)
     for (vector<Student>::iterator iterator = students.begin(); iterator != students.end(); iterator++)
     {
         //自定义sql语句
-        string sql = "insert into user(username, email, password, information, ac_num, submit_num, is_show, public_email, rating, register_time, prefer_formatted_code) ";
+        string sql = "insert into user(username, email, password, information, ac_num, submit_num, is_show, public_email, rating, register_time, prefer_formatted_code, id) ";
         sql += "values('";
         sql += iterator->username;  //账号
         sql += "', '";
@@ -51,15 +54,18 @@ void LogUpDao::insertInformation(vector<Student> students)
         sql += "', '";
         sql += "1635255795";       //虚拟注册时间
         sql += "', '";
-        sql += "1');";
+        sql += "1";
+        sql += "', '";
+        sql += to_string(iterator->id);    //数据库id
+        sql += "');";
 
         if (!mysql_query(&mysql, sql.c_str()))
         {
-            cout << "学生" << iterator->information << "成功插入到数据库" << endl;
+            cout << "学生 " << iterator->information << " 成功插入到数据库" << endl;
         }
         else
         {
-            cout << "学生" << iterator->information << "数据库插入失败" << endl;
+            cout << "学生 " << iterator->information << " 数据库插入失败" << endl;
         }
     }
 }

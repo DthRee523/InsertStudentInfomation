@@ -1,14 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-//                    LibXL C++ headers version 4.0.0                        //
-//                                                                           //
-//       Copyright (c) 2008 - 2021 Dmytro Skrypnyk and XLware s.r.o.         //
-//                                                                           //
-//   THIS FILE AND THE SOFTWARE CONTAINED HEREIN IS PROVIDED 'AS IS' AND     //
-//                COMES WITH NO WARRANTIES OF ANY KIND.                      //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
-
 #ifndef LIBXL_IBOOKT_H
 #define LIBXL_IBOOKT_H
 
@@ -21,34 +10,25 @@ namespace libxl {
     template<class TCHAR> struct ISheetT;
     template<class TCHAR> struct IFormatT;
     template<class TCHAR> struct IFontT;
-    template<class TCHAR> struct IRichStringT;
 
     template<class TCHAR>
     struct IBookT
     {
-        virtual             bool XLAPIENTRY load(const TCHAR* filename, const TCHAR* tempFile = 0) = 0;
-        virtual             bool XLAPIENTRY loadSheet(const TCHAR* filename, int sheetIndex, const TCHAR* tempFile = 0) = 0;
-        virtual             bool XLAPIENTRY loadPartially(const TCHAR* filename, int sheetIndex, int firstRow, int lastRow, const TCHAR* tempFile = 0) = 0;
-        virtual             bool XLAPIENTRY loadWithoutEmptyCells(const TCHAR* filename) = 0;
-        virtual             bool XLAPIENTRY loadInfo(const TCHAR* filename) = 0;
+        virtual             bool XLAPIENTRY load(const TCHAR* filename) = 0;
+        virtual             bool XLAPIENTRY save(const TCHAR* filename) = 0;
 
-        virtual             bool XLAPIENTRY save(const TCHAR* filename, bool useTempFile = false) = 0;
-
-        virtual             bool XLAPIENTRY loadRaw(const char* data, unsigned size, int sheetIndex = -1, int firstRow = -1, int lastRow = -1) = 0;
+        virtual             bool XLAPIENTRY loadRaw(const char* data, unsigned size) = 0;
         virtual             bool XLAPIENTRY saveRaw(const char** data, unsigned* size) = 0;
 
         virtual  ISheetT<TCHAR>* XLAPIENTRY addSheet(const TCHAR* name, ISheetT<TCHAR>* initSheet = 0) = 0;
         virtual  ISheetT<TCHAR>* XLAPIENTRY insertSheet(int index, const TCHAR* name, ISheetT<TCHAR>* initSheet = 0) = 0;
         virtual  ISheetT<TCHAR>* XLAPIENTRY getSheet(int index) const = 0;
-        virtual     const TCHAR* XLAPIENTRY getSheetName(int index) const = 0;
         virtual        SheetType XLAPIENTRY sheetType(int index) const = 0;
-        virtual             bool XLAPIENTRY moveSheet(int srcIndex, int dstIndex) = 0;
         virtual             bool XLAPIENTRY delSheet(int index) = 0;
         virtual              int XLAPIENTRY sheetCount() const = 0;
 
         virtual IFormatT<TCHAR>* XLAPIENTRY addFormat(IFormatT<TCHAR>* initFormat = 0) = 0;
         virtual   IFontT<TCHAR>* XLAPIENTRY addFont(IFontT<TCHAR>* initFont = 0) = 0;
-        virtual IRichStringT<TCHAR>* XLAPIENTRY addRichString() = 0;
         virtual              int XLAPIENTRY addCustomNumFormat(const TCHAR* customNumFormat) = 0;
         virtual     const TCHAR* XLAPIENTRY customNumFormat(int fmt) = 0;
 
@@ -72,7 +52,6 @@ namespace libxl {
 
         virtual              int XLAPIENTRY addPicture(const TCHAR* filename) = 0;
         virtual              int XLAPIENTRY addPicture2(const char* data, unsigned size) = 0;
-        virtual              int XLAPIENTRY addPictureAsLink(const TCHAR* filename, bool insert = false) = 0;
 
         virtual     const TCHAR* XLAPIENTRY defaultFont(int* fontSize) = 0;
         virtual             void XLAPIENTRY setDefaultFont(const TCHAR* fontName, int fontSize) = 0;
@@ -85,9 +64,6 @@ namespace libxl {
         virtual             bool XLAPIENTRY rgbMode() = 0;
         virtual             void XLAPIENTRY setRgbMode(bool rgbMode = true) = 0;
 
-        virtual     CalcModeType XLAPIENTRY calcMode() const = 0;
-        virtual             void XLAPIENTRY setCalcMode(CalcModeType calcMode) = 0;
-
         virtual              int XLAPIENTRY version() const = 0;
         virtual              int XLAPIENTRY biffVersion() const = 0;
 
@@ -96,8 +72,6 @@ namespace libxl {
 
         virtual             bool XLAPIENTRY isTemplate() const = 0;
         virtual             void XLAPIENTRY setTemplate(bool tmpl = true) = 0;
-
-        virtual             bool XLAPIENTRY isWriteProtected() const = 0;
 
         virtual             bool XLAPIENTRY setLocale(const char* locale) = 0;
         virtual      const char* XLAPIENTRY errorMessage() const = 0;

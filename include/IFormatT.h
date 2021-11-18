@@ -1,14 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////
-//                                                                           //
-//                    LibXL C++ headers version 4.0.0                        //
-//                                                                           //
-//       Copyright (c) 2008 - 2021 Dmytro Skrypnyk and XLware s.r.o.         //
-//                                                                           //
-//   THIS FILE AND THE SOFTWARE CONTAINED HEREIN IS PROVIDED 'AS IS' AND     //
-//                COMES WITH NO WARRANTIES OF ANY KIND.                      //
-//                                                                           //
-///////////////////////////////////////////////////////////////////////////////
-
 #ifndef LIBXL_IFORMATT_H
 #define LIBXL_IFORMATT_H
 

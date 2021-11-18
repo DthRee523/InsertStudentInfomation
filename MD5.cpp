@@ -1,5 +1,7 @@
 #include "MD5.h"
 #include <iostream>
+#include <math.h>
+#include <string.h>
 // 幻数定义
 const int Md5Encode::kA = 0x67452301;
 const int Md5Encode::kB = 0xefcdab89;

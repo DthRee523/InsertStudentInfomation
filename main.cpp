@@ -5,20 +5,16 @@
 #include "Student.h"
 #include "LogUpDao.h"
 #include "MD5.h"
+#include "FileIO.h"
 
 using namespace std;
 
 int main() {
     LogUpDao logUpDao("localhost", "root", "Liuhuan1");
-
-    vector<Student> v_stu;
-    Student student;
-    student.username = "101";
-    Md5Encode md5Encode;
-    student.information = "²âÊÔÐÅÏ¢";
-    student.password = md5Encode.Encode("1");
-    student.email = "111@dthree.cn";
-    v_stu.push_back(student);
-    logUpDao.insertInformation(v_stu);
+    FileIO *fileIo;
+    fileIo = new FileIO();
+    logUpDao.insertInformation(fileIo->getStudents(72, 0, 3));
+    delete fileIo;
+    fileIo = nullptr;
     return 0;
 }

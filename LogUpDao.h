@@ -23,7 +23,6 @@ private:
     MYSQL_FIELD *mysql_field;
 
 public:
-    //数据库初始化
     LogUpDao(string sqlhost, string sqlUser, string password);
     //插入数据
     void insertInformation(vector<Student> students);
@@ -31,6 +30,5 @@ public:
     //数据库结束
     ~LogUpDao();
 };
-
 
 #endif //INSERTSTUDENTINFORMATION_LOGUPDAO_H

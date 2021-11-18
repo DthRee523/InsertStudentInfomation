@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../include/IAutoFilterT.h
-setup.h
-../include/setup.h
-
 ../include/IBookT.h
 stddef.h
 -
-setup.h
-../include/setup.h
-enum.h
-../include/enum.h
-
-../include/IFilterColumnT.h
 setup.h
 ../include/setup.h
 enum.h
@@ -30,21 +20,11 @@ setup.h
 enum.h
 ../include/enum.h
 
-../include/IFormControlT.h
-setup.h
-../include/setup.h
-enum.h
-../include/enum.h
-
 ../include/IFormatT.h
 setup.h
 ../include/setup.h
 enum.h
 ../include/enum.h
-
-../include/IRichStringT.h
-setup.h
-../include/setup.h
 
 ../include/ISheetT.h
 setup.h
@@ -65,14 +45,6 @@ IFormatT.h
 ../include/IFormatT.h
 IFontT.h
 ../include/IFontT.h
-IAutoFilterT.h
-../include/IAutoFilterT.h
-IFilterColumnT.h
-../include/IFilterColumnT.h
-IRichStringT.h
-../include/IRichStringT.h
-IFormControlT.h
-../include/IFormControlT.h
 
 ../include/my_alloc.h
 mysql/psi/psi_memory.h
@@ -151,14 +123,12 @@ shlobj.h
 -
 fstream
 -
+vector
+-
 Student.h
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 MD5.h
 D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
-
-D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.cpp
-LogUpDao.h
-D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
 
 D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
 iostream
@@ -177,11 +147,7 @@ Student.h
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 
 D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
-cstring
--
-cmath
--
-iostream
+string
 -
 
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
@@ -189,4 +155,20 @@ string
 -
 iostream
 -
+
+D:/Code/CoC++/LingXi/insert-student-infomation/main.cpp
+iostream
+-
+vector
+-
+string
+-
+Student.h
+D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
+LogUpDao.h
+D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
+MD5.h
+D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
+FileIO.h
+D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
 

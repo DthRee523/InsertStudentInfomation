@@ -10,6 +10,7 @@
 #include <windows.h>    //获取桌面路径的头文件
 #include <shlobj.h>     //获取桌面路径的头文件
 #include <fstream>
+#include <vector>
 #pragma comment(lib,"libxl.lib")
 
 #include "Student.h"
@@ -20,10 +21,19 @@ using namespace std;
 
 class FileIO
 {
+private:
+    Book *book; //实例化表格
+    Md5Encode md5Encode;    //密码加密
+    Student student;        //单个学生信息
+    vector<Student> students;//整个学生信息
+    Sheet *sheet;           //表格sheet项
+
 public:
+    FileIO();
     //获取桌面路径
     string getDesktopPath();
-    //TODO 文件处理还没写完
-
+    //获得学生信息
+    vector<Student> getStudents(int idBegin, int begin, int end);
 };
+
 #endif //INSERTSTUDENTINFORMATION_FILEIO_H

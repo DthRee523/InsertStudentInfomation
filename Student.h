@@ -12,7 +12,6 @@ struct Student
     string password;    //密码
     string email;       //虚拟邮箱
     string information;  //学生班级姓名信息
-    string register_time;//虚假注册时间
 };
 
 #endif //INSERTSTUDENTINFORMATION_STUDENT_H
