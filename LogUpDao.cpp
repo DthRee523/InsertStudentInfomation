@@ -8,12 +8,13 @@ LogUpDao::LogUpDao(string sqlhost, string sqlUser, string password)
                           sqlhost.c_str(),
                           sqlUser.c_str(),
                           password.c_str(),
-                          "db_test",
+                          "syzoj",
                           3306,
                           NULL,
                           0))
     {
-
+        //windows下用的编码格式为GB2312 Linux下删除此代码 UTF-8
+        mysql_query(&mysql, "set names gb2312");
     }
     else
     {
@@ -21,13 +22,14 @@ LogUpDao::LogUpDao(string sqlhost, string sqlUser, string password)
         exit(0);
     }
 }
-
-bool LogUpDao::insertInformation(vector<Student> students)
+// function:  insertInformation
+// @return : void
+void LogUpDao::insertInformation(vector<Student> students)
 {
     for (vector<Student>::iterator iterator = students.begin(); iterator != students.end(); iterator++)
     {
         //自定义sql语句
-        string sql = "insert into user(username, email, password, information, ac_num, submit_num, is_show, public_email, rating) ";
+        string sql = "insert into user(username, email, password, information, ac_num, submit_num, is_show, public_email, rating, register_time, prefer_formatted_code) ";
         sql += "values('";
         sql += iterator->username;  //账号
         sql += "', '";
@@ -45,7 +47,11 @@ bool LogUpDao::insertInformation(vector<Student> students)
         sql += "', '";
         sql += "1";                 //公开虚拟电子邮件
         sql += "', '";
-        sql += "0');";              //积分初始化
+        sql += "0";              //积分初始化
+        sql += "', '";
+        sql += "1635255795";       //虚拟注册时间
+        sql += "', '";
+        sql += "1');";
 
         if (!mysql_query(&mysql, sql.c_str()))
         {

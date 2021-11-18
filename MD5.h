@@ -2,7 +2,9 @@
 #define __MD5_ENCODE_H__
 
 // std
-#include <string>
+#include <cstring>
+#include <cmath>
+#include <iostream>
 
 // define
 #define UInt32 unsigned int

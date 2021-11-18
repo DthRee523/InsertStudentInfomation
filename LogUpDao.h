@@ -26,7 +26,7 @@ public:
     //数据库初始化
     LogUpDao(string sqlhost, string sqlUser, string password);
     //插入数据
-    bool insertInformation(vector<Student> students);
+    void insertInformation(vector<Student> students);
 
     //数据库结束
     ~LogUpDao();

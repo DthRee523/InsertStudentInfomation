@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj"
   "CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj"
+  "CMakeFiles/InsertStudentInformation.dir/MD5.cpp.obj"
   "CMakeFiles/InsertStudentInformation.dir/main.cpp.obj"
   "InsertStudentInformation.exe"
   "InsertStudentInformation.exe.manifest"

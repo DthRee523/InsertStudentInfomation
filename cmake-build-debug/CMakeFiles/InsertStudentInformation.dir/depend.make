@@ -15,6 +15,7 @@ CMakeFiles/InsertStudentInformation.dir/FileIO.cpp.obj: \
  ../include/setup.h \
  ../FileIO.cpp \
  ../FileIO.h \
+ ../MD5.h \
  ../Student.h
 CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj: \
  ../include/IAutoFilterT.h \
@@ -46,5 +47,36 @@ CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.obj: \
  ../LogUpDao.h \
  ../MD5.h \
  ../Student.h
+CMakeFiles/InsertStudentInformation.dir/MD5.cpp.obj: \
+ ../MD5.cpp \
+ ../MD5.h
 CMakeFiles/InsertStudentInformation.dir/main.cpp.obj: \
+ ../include/IAutoFilterT.h \
+ ../include/IBookT.h \
+ ../include/IFilterColumnT.h \
+ ../include/IFontT.h \
+ ../include/IFormControlT.h \
+ ../include/IFormatT.h \
+ ../include/IRichStringT.h \
+ ../include/ISheetT.h \
+ ../include/binary_log_types.h \
+ ../include/enum.h \
+ ../include/libxl.h \
+ ../include/my_alloc.h \
+ ../include/my_command.h \
+ ../include/my_list.h \
+ ../include/mysql.h \
+ ../include/mysql/client_plugin.h \
+ ../include/mysql/plugin_auth_common.h \
+ ../include/mysql/psi/psi_base.h \
+ ../include/mysql/psi/psi_memory.h \
+ ../include/mysql_com.h \
+ ../include/mysql_time.h \
+ ../include/mysql_version.h \
+ ../include/setup.h \
+ ../include/typelib.h \
+ ../FileIO.h \
+ ../LogUpDao.h \
+ ../MD5.h \
+ ../Student.h \
  ../main.cpp

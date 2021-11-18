@@ -176,6 +176,30 @@ LogUpDao.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/LogUpDao.cpp.s
 .PHONY : LogUpDao.cpp.s
 
+MD5.obj: MD5.cpp.obj
+.PHONY : MD5.obj
+
+# target to build an object file
+MD5.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/MD5.cpp.obj
+.PHONY : MD5.cpp.obj
+
+MD5.i: MD5.cpp.i
+.PHONY : MD5.i
+
+# target to preprocess a source file
+MD5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/MD5.cpp.i
+.PHONY : MD5.cpp.i
+
+MD5.s: MD5.cpp.s
+.PHONY : MD5.s
+
+# target to generate assembly for a file
+MD5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/MD5.cpp.s
+.PHONY : MD5.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... LogUpDao.obj
 	@echo ... LogUpDao.i
 	@echo ... LogUpDao.s
+	@echo ... MD5.obj
+	@echo ... MD5.i
+	@echo ... MD5.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

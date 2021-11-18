@@ -94,6 +94,12 @@
 		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h">
 			<Option target="InsertStudentInformation"/>
 		</Unit>
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/MD5.cpp">
+			<Option target="InsertStudentInformation"/>
+		</Unit>
+		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h">
+			<Option target="InsertStudentInformation"/>
+		</Unit>
 		<Unit filename="D:/Code/CoC++/LingXi/insert-student-infomation/Student.h">
 			<Option target="InsertStudentInformation"/>
 		</Unit>

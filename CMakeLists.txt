@@ -9,4 +9,5 @@ include_directories(${mysqlInclude})
 link_directories(${mysqlLib})
 link_libraries(libmysql libxl)
 
-add_executable(InsertStudentInformation main.cpp LogUpDao.cpp LogUpDao.h FileIO.cpp FileIO.h Student.h)
+add_executable(InsertStudentInformation main.cpp LogUpDao.cpp LogUpDao.h FileIO.cpp FileIO.h Student.h MD5.h MD5.cpp)
+

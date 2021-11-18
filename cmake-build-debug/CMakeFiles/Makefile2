@@ -80,12 +80,12 @@ clean: CMakeFiles/InsertStudentInformation.dir/clean
 CMakeFiles/InsertStudentInformation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InsertStudentInformation.dir\build.make CMakeFiles/InsertStudentInformation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target InsertStudentInformation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target InsertStudentInformation"
 .PHONY : CMakeFiles/InsertStudentInformation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/InsertStudentInformation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/InsertStudentInformation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\CoC++\LingXi\insert-student-infomation\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/InsertStudentInformation.dir/rule

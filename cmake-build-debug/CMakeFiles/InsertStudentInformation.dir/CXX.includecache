@@ -138,10 +138,6 @@ my_command.h
 my_alloc.h
 ../include/my_alloc.h
 
-D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.cpp
-FileIO.h
-D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
-
 D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
 iostream
 -
@@ -153,8 +149,12 @@ windows.h
 -
 shlobj.h
 -
+fstream
+-
 Student.h
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
+MD5.h
+D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
 
 D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.cpp
 LogUpDao.h
@@ -163,30 +163,30 @@ D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
 D:/Code/CoC++/LingXi/insert-student-infomation/LogUpDao.h
 iostream
 -
+string
+-
+vector
+-
 winsock.h
 -
 mysql.h
 -
-string
--
-MD5.h
-D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
 FileIO.h
 D:/Code/CoC++/LingXi/insert-student-infomation/FileIO.h
 Student.h
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 
 D:/Code/CoC++/LingXi/insert-student-infomation/MD5.h
-string
+cstring
+-
+cmath
+-
+iostream
 -
 
 D:/Code/CoC++/LingXi/insert-student-infomation/Student.h
 string
 -
-iostream
--
-
-D:/Code/CoC++/LingXi/insert-student-infomation/main.cpp
 iostream
 -
 
